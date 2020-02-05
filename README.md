@@ -32,10 +32,10 @@ Requirements: need nodejs to run and a web browser
 
 Steps to run:
 
-             1.On your local install git
+             1. On your local install git
 
-             2.Open git bash and type git clone followed by the repo link   
+             2. Open git bash and type git clone followed by the repo link   
              
-             3.Go inside the folder and run http-server -p 3000 -d --cors 
+             3. Go inside the folder and run http-server -p 3000 -d --cors 
              
-             4.Hit the url : http://127.0.0.1:3000 on the web browser
+             4. Hit the url : http://127.0.0.1:3000 on the web browser
