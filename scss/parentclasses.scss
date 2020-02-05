@@ -1,0 +1,24 @@
+// Parent Class for all the circles
+%circle {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+// Parent Class for all the squares
+%square {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+// Parent Class for all the ceo circles
+%ceocircles {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}

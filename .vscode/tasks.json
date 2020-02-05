@@ -5,9 +5,9 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "Sass Compile",
+        "label": "SCSS Compile",
         "type": "shell",
-        "command": "node-sass sass/style.scss sass/styles.css",
+        "command": "node-sass scss/main.scss css/styles.css",
         "group": "build"
       }
     ]
