@@ -1,0 +1,425 @@
+.fcircle, .scircle, .tcircle, .focircle {
+  float: left;
+  width: 100px;
+  height: 100px; }
+
+.square1, .square2, .square3, .square4, .square5, .square6, .square7 {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px; }
+
+.ceocircles1, .ceocircles2, .ceocircles3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px; }
+
+/* eye image css combinator */
+div > img {
+  width: "82";
+  height: "50"; }
+
+/* combinator used for the fonts for heading tag  */
+div > h5 {
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+  color: #808080; }
+
+/* right most image top  */
+.penimage {
+  float: right;
+  padding-top: 40px;
+  padding-left: 800px;
+  width: 100px;
+  height: 100px; }
+
+.crumb {
+  display: inline-block; }
+
+/* anchor links in the navigation bar */
+.anav:link {
+  color: #808080;
+  text-decoration: none;
+  background-color: #ffffff; }
+
+/* aligning nav bar links to the right */
+.topnav-right {
+  float: right; }
+
+/* hover link on mouse for the nav link */
+.anavl:hover {
+  color: #000000; }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #ffffff; }
+
+/* see more link */
+.seemore:link {
+  color: #000000;
+  text-decoration: none; }
+
+/* css for the first section */
+.firstsec {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px; }
+
+.abtus {
+  text-decoration: none;
+  color: darkcyan;
+  text-align: center; }
+
+/* explore more button styling*/
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: deepskyblue;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0)); }
+
+/* for the study pic these are the css class */
+.boths {
+  margin-top: 5in; }
+
+/* for the study pic these are the css class */
+.study {
+  float: left;
+  width: 1000px;
+  height: 100px;
+  margin-left: 1em; }
+
+/* about us and download cv section */
+.hire {
+  float: left;
+  /* padding-top: 40px; */
+  width: 1000px;
+  height: 100px;
+  margin-left: 28em; }
+
+/* third sec */
+.thirdsec {
+  float: left;
+  margin-top: 3in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px; }
+
+/* circle css */
+.circle-wrap {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%; }
+  .circle-wrap .circle .mask, .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%; }
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 2000px, 150px, 75px); }
+    .circle-wrap .circle .mask .fill {
+      clip: rect(0px, 75px, 150px, 0px);
+      background-color: #00b1a2; }
+  .circle-wrap .inside-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 70;
+    font-size: 1em; }
+
+.fifty {
+  transform: rotate(180deg); }
+
+.seventy {
+  transform: rotate(200deg); }
+
+.twenty {
+  transform: rotate(50deg); }
+
+/* first CIRCLE */
+.fcircle {
+  padding-left: 10px; }
+
+/* second CIRCLE */
+.scircle {
+  padding-left: 80px; }
+
+/* third CIRCLE */
+.tcircle {
+  padding-left: 90px; }
+
+/* fourth CIRCLE */
+.focircle {
+  padding-left: 100px; }
+
+/* myservices section */
+.myservices {
+  margin-top: 14in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both; }
+
+/* square in my services section is a card */
+.square1 {
+  height: 200px; }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; }
+
+/* Add some padding inside the card container */
+.container {
+  padding: 12px 16px; }
+
+/* second square styling */
+/* space between div */
+.emptydiv {
+  width: 300px;
+  float: left;
+  height: 170px;
+  margin-top: 300px; }
+
+/* third square styling */
+/* fourth square styling */
+/* cards layout styling */
+.card4 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; }
+
+/* fifth square styling */
+/* sixth square styling */
+/* viewmore button styling */
+.viewmore {
+  width: 300px;
+  float: right;
+  height: 170px;
+  margin-top: 180px;
+  margin-right: 6in; }
+
+/* styling for the portfolio section */
+.portfolio {
+  margin-top: 10in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both;
+  padding: auto; }
+
+/* anchor tag styling inside the portfolio section */
+.portfolioheading:link {
+  text-decoration: none;
+  color: darkcyan;
+  text-align: center;
+  display: block;
+  /* display: block; */
+  /* margin-left: 1in; */ }
+
+/* anchor tag styling inside the testmonials section */
+.testimonials {
+  margin-top: 4in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both; }
+
+/* circles above ceo pic */
+.ceocircles1 {
+  background: #000000; }
+
+/* circles above ceo pic */
+.ceocircles2 {
+  background: lightseagreen; }
+
+/* circles above ceo pic */
+.ceocircles3 {
+  background: #000000; }
+
+.square7 {
+  float: none;
+  margin-top: 0px;
+  background: #ffffff;
+  display: inline-block; }
+
+.card4 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: fit-content; }
+
+.coffeimg {
+  width: 100%; }
+
+/* viewmore button styling */
+.viewall {
+  width: 300px;
+  float: right;
+  height: 170px;
+  margin-top: 100px;
+  margin-right: 4in; }
+
+.testimonial {
+  margin-top: 1in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both; }
+
+/* styling for the contact us section */
+.field {
+  border: #ffffff;
+  margin-left: 0in; }
+
+/* name text box */
+.text {
+  float: left;
+  width: 25%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-left: 1.2in; }
+
+/* email text box */
+.eml {
+  float: right;
+  width: 25%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-right: 1.2in; }
+
+/* tel text box */
+.tel {
+  float: left;
+  width: 25%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 1.2in; }
+
+/* dropdown */
+.budg {
+  float: right;
+  width: 28%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-top: 20px;
+  margin-right: 1.2in; }
+
+/* text area css */
+.mesg {
+  float: left;
+  width: 74%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 1.2in; }
+
+/* last section */
+.lastset {
+  margin-top: 4in;
+  width: 1000px;
+  height: 100px;
+  clear: both; }
+
+/* image styling */
+.imgey {
+  float: left;
+  width: 82px;
+  height: 50px;
+  margin-left: 1em; }
+
+.lastsecp {
+  float: right;
+  /* margin-top: 1in ; */
+  padding-left: 0;
+  text-align: left;
+  margin-right: 8in; }
+
+/* navigate to top button */
+.topbutton {
+  width: 100px;
+  height: 60px;
+  float: right; }
+
+/* navigate to top button anchor tag */
+.topanchor {
+  float: left;
+  margin-left: 1300px; }
+
+.articlelast {
+  text-align: left;
+  float: right;
+  margin-right: -200px; }
+
+/* last 3 links */
+.sentmail {
+  width: 100px;
+  float: right;
+  height: 50px;
+  background: #ffffff;
+  margin: 50px; }
+
+.footerlinks:link {
+  text-decoration: none;
+  color: darkcyan;
+  text-align: left;
+  display: block;
+  /* display: block; */
+  /* margin-left: 1in; */ }
+
+.foot {
+  margin-top: 270px; }
+
+/* combinator class for hr  */
+div > hr {
+  border-top: 2px solid cyan; }
+
+/* combinator class for footer p */
+footer > p {
+  text-align: center; }
+
+/* psuedo element for form fields */
+::placeholder {
+  color: #808080;
+  font-size: 1.1em; }
+
+/* Make selected text in a paragraph $white on a blue background */
+p::selection {
+  color: #ffffff;
+  background-color: blue; }
