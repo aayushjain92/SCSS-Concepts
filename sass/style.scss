@@ -1,0 +1,561 @@
+// Colors
+$black: #000000;
+$grey: #808080;
+$white: #ffffff;
+
+// Width
+$width : 1000px;
+
+/* eye image css combinator */
+div > img {
+  width: "82";
+  height: "50";
+}
+
+/* combinator used for the fonts for heading tag  */
+div > h5 {
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+  color: $grey;
+}
+
+/* right most image top  */
+.penimage {
+  float: right;
+  padding-top: 40px;
+  padding-left: 800px;
+  width: 100px;
+  height: 100px;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+/* anchor links in the navigation bar */
+.anav{
+  &:link {
+    color: $grey;
+    text-decoration: none;
+  }
+}
+
+/* see more link */
+.seemore{
+  &:link {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+/* aligning nav bar links to the right */
+.topnav-right {
+  float: right;
+}
+
+/* hover link on mouse for the nav link */
+.anavl:hover {
+  color: $black;
+}
+
+/* css for the first section */
+.firstsec {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+.abtus {
+  text-decoration: none;
+  color: darkcyan;
+  text-align: center;
+}
+
+/* explore more button styling*/
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(0, 220, 183);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* for the study pic these are the css class */
+.boths {
+  margin-top: 5in;
+}
+
+/* for the study pic these are the css class */
+.study {
+  float: left;
+  width: 1000px;
+  height: 100px;
+  margin-left: 1em;
+}
+
+/* about us and download cv section */
+.hire {
+  float: left;
+  /* padding-top: 40px; */
+  width: 1000px;
+  height: 100px;
+  margin-left: 28em;
+}
+
+/* third sec */
+.thirdsec {
+  float: left;
+  margin-top: 3in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+
+/* circle css */
+.circle-wrap {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+
+  .circle {
+    .mask, .fill {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    .mask {
+      clip: rect(0px, 2000px, 150px, 75px);
+
+      .fill {
+        clip: rect(0px, 75px, 150px, 0px);
+        background-color: #00b1a2;
+      }
+    }
+  }
+
+  .inside-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 70;
+    font-size: 1em;
+  }
+
+}
+
+.fifty {
+  transform: rotate(180deg);
+}
+
+.seventy {
+  transform: rotate(200deg);
+}
+
+.twenty {
+  transform: rotate(50deg);
+}
+
+/* first CIRCLE */
+.fcircle {
+  float: left;
+  padding-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+/* second CIRCLE */
+.scircle {
+  float: left;
+  padding-left: 80px;
+  width: 100px;
+  height: 100px;
+}
+
+/* third CIRCLE */
+.tcircle {
+  float: left;
+  padding-left: 90px;
+  width: 100px;
+  height: 100px;
+}
+
+/* fourth CIRCLE */
+.focircle {
+  float: left;
+  padding-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+/* myservices section */
+.myservices {
+  margin-top: 14in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both;
+}
+
+/* square in my services section is a card */
+.square1 {
+  float: left;
+  margin-top: 1in;
+  height: 200px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 12px 16px;
+}
+
+/* second square styling */
+.square2 {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+/* space between div */
+.emptydiv {
+  width: 300px;
+  float: left;
+  height: 170px;
+  margin-top: 300px;
+}
+
+/* third square styling */
+.square3 {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+/* fourth square styling */
+.square4 {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+/* cards layout styling */
+.card4 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* fifth square styling */
+.square5 {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+/* sixth square styling */
+.square6 {
+  float: left;
+  margin-top: 1in;
+  height: 170px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+/* viewmore button styling */
+.viewmore {
+  width: 300px;
+  float: right;
+  height: 170px;
+  margin-top: 180px;
+  margin-right: 6in;
+}
+
+/* styling for the portfolio section */
+.portfolio {
+  margin-top: 10in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both;
+  padding: auto;
+}
+
+/* anchor tag styling inside the portfolio section */
+.portfolioheading{
+  &:link {
+    text-decoration: none;
+    color: darkcyan;
+    text-align: center;
+    display: block;
+    /* display: block; */
+    /* margin-left: 1in; */
+  }
+}
+
+/* anchor tag styling inside the testmonials section */
+.testimonials {
+  margin-top: 4in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both;
+}
+
+/* circles above ceo pic */
+.ceocircles1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: $black;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* circles above ceo pic */
+.ceocircles2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: lightseagreen;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* circles above ceo pic */
+.ceocircles3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: $black;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.square7 {
+  width: 300px;
+  /* float:left;  */
+  height: 170px;
+  background: $white;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.card4 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.coffeimg {
+  width: 100%;
+}
+
+/* viewmore button styling */
+.viewall {
+  width: 300px;
+  float: right;
+  height: 170px;
+  margin-top: 100px;
+  margin-right: 4in;
+}
+
+.testimonial {
+  margin-top: 1in;
+  width: 1000px;
+  height: 100px;
+  margin-left: 200px;
+  text-align: center;
+  clear: both;
+}
+
+/* styling for the contact us section */
+.field {
+  border: $white;
+  margin-left: 0in;
+}
+
+/* name text box */
+.text {
+  float: left;
+  width: 25%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-left: 1.2in;
+}
+
+/* email text box */
+.eml {
+  float: right;
+  width: 25%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-right: 1.2in;
+}
+
+/* tel text box */
+.tel {
+  float: left;
+  width: 25%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 1.2in;
+}
+
+/* dropdown */
+.budg {
+  float: right;
+  width: 28%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-top: 20px;
+  margin-right: 1.2in;
+}
+
+/* text area css */
+.mesg {
+  float: left;
+  width: 74%;
+  height: 50%;
+  resize: vertical;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 1.2in;
+}
+
+/* last section */
+.lastset {
+  margin-top: 4in;
+  width: 1000px;
+  height: 100px;
+  clear: both;
+}
+
+/* image styling */
+.imgey {
+  float: left;
+  width: 82px;
+  height: 50px;
+  margin-left: 1em;
+}
+
+.lastsecp {
+  float: right;
+  /* margin-top: 1in ; */
+  padding-left: 0;
+  text-align: left;
+  margin-right: 8in;
+}
+
+/* navigate to top button */
+.topbutton {
+  width: 100px;
+  height: 60px;
+  float: right;
+}
+
+/* navigate to top button anchor tag */
+.topanchor {
+  float: left;
+  margin-left: 1300px;
+}
+
+.articlelast {
+  text-align: left;
+  float: right;
+  margin-right: -200px;
+}
+
+/* last 3 links */
+.sentmail {
+  width: 100px;
+  float: right;
+  height: 50px;
+  background: $white;
+  margin: 50px;
+}
+
+.footerlinks:link {
+  text-decoration: none;
+  color: darkcyan;
+  text-align: left;
+  display: block;
+  /* display: block; */
+  /* margin-left: 1in; */
+}
+
+.foot {
+  margin-top: 270px;
+}
+
+/* combinator class for hr  */
+div > hr {
+  border-top: 2px solid cyan;
+}
+
+/* combinator class for footer p */
+footer > p {
+  text-align: center;
+}
+
+/* psuedo element for form fields */
+::placeholder {
+  color: $grey;
+  font-size: 1.1em;
+}
+
+/* Make selected text in a paragraph $white on a blue background */
+p{
+  &::selection {
+    color: $white;
+    background-color: blue;
+  }
+}
