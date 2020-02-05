@@ -282,7 +282,7 @@ div > img {
   /* styling for the portfolio section */
   .portfolio {
     margin-top: 10in;
-    width: 1000px;
+    width: 500px;
     height: 100px;
     margin-left: 200px;
     text-align: center;
@@ -301,6 +301,44 @@ div > img {
       /* margin-left: 1in; */
     }
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    background-color:$white;
+    padding: 2px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    //padding: 20px 0;
+    font-size: 15px;
+  }
+  
+  .porthead{
+      grid-row-start: 1;
+      grid-column-start: 1;
+      grid-column-end: 9;
+  }
+  
+  $size:1;
+  @for $i from 1 through 4 {
+    .item#{$i} {
+      grid-row-start: 2;
+      grid-column-start: $size;
+      grid-column-end: $size+1;
+    }
+  $size: $size+2;
+  }
+  
+  .item5 {
+   grid-row-start: 3;
+   grid-column-start: 1;
+   grid-column-end: 9;
+  }
+  
   
   /* anchor tag styling inside the testmonials section */
   .testimonials {
