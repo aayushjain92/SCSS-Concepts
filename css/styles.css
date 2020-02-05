@@ -247,10 +247,10 @@ div > h5 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 5px;
   background-color: #ffffff;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5px; }
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);

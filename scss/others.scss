@@ -278,6 +278,7 @@ div > img {
     margin-top: 180px;
     margin-right: 6in;
   }
+
   
   /* styling for the portfolio section */
   .portfolio {
@@ -302,12 +303,16 @@ div > img {
     }
   }
 
-  .grid-container {
+  @mixin grid-list {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 5px;
     background-color:$white;
     padding: 2px;
+  }
+
+  .grid-container {
+    @include grid-list;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
   }
   
   .grid-container > div {
