@@ -1,6 +1,6 @@
 # SCSS Concepts
 
-The purpose of this repository is to learn and implement the basic concepts of SCSS and HTML
+The purpose of this repository is to learn and implement the basic concepts of CSS, SCSS and HTML by trying to create a web page from a sample image
 
 
 ## Repo Structure
@@ -9,7 +9,7 @@ The purpose of this repository is to learn and implement the basic concepts of S
 
 This folder contains all the images being used in the web page
 
-**Sample Given**
+**Sample**
 
 This folder contains a sample design of the web page
 
@@ -27,7 +27,7 @@ This folder contains the scss files
 
 **index.html**
 
-This file contains the html code of the image in the "Sample Given" directory
+This file contains the html code of the image in the "Sample" directory
 
 ## How to execute
 
