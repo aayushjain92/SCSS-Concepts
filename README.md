@@ -1,5 +1,6 @@
-# Assignment 4
-The purpose of this assignment was to get used to CSS and SCSS. The image file in the Sample Given directory needs to be created using HTML and SCSS
+# SCSS Concepts
+
+The purpose of this repository is to learn and implement the basic concepts of SCSS and HTML
 
 
 ## Repo Structure
